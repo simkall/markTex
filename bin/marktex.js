@@ -7,11 +7,12 @@
         cwd = '',
         buffer = '';
    //THis is wrong
-    if (process.argv.length === 3) {
+    if (process.argv.length >= 3) {
         stream = fs.createReadStream(process.argv[2]);
         cwd = require('path').dirname(process.argv[2]);
     } else {
-        stream = process.stdin;
+        console.error('Input file missing');
+        process.exit(1);
     }
     stream.resume();
     stream.setEncoding('utf8');

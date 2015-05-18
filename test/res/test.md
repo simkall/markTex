@@ -1,4 +1,2 @@
-#Test
-##Test
-###Test
+test
 \input(test_input.md)
