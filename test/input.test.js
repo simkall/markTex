@@ -8,8 +8,8 @@ tap.test('Marktex should be defined', function (t) {
 });
 
 tap.test('Input commands should be replaced with file contents', function (t) {
-    var testFile = fs.readFileSync('test/res/test.md', 'utf8');
-    var markdown = marktex.latexify(testFile, 'test/res/');
+    var testFile = fs.readFileSync('test/res/input/test.md', 'utf8');
+    var markdown = marktex.latexify(testFile, 'test/res/input/');
     t.equal(markdown, 'test\ntest_input\ntest_inner_input', 'Inputs should be replaced');
     t.end();
 });
