@@ -3,8 +3,8 @@ var marktex = require('../lib/index');
 var fs = require('fs');
 
 tap.test('Marktex should be defined', function (t) {
-    t.ok(marktex)
-    t.end()
+    t.ok(marktex);
+    t.end();
 });
 
 tap.test('Input commands should be replaced with file contents', function (t) {
