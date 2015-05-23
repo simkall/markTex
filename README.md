@@ -1,8 +1,3 @@
-* [1 heading one](#headingone1)
-* [1.1 heading](#heading2)
-* [1.1.1 heading one](#headingone3)
-* [1.1.1.1 heading](#heading4)
-
 # markTex
 A LaTex inspired extension of markdown. After installing marktex can run from the command line with ```marktex input.md > output.md```
 
@@ -22,10 +17,3 @@ To add a table of contents add ```\tableOfContents``` where you want the table o
 install dependencies with ```npm install``` to run marktex modified version run ```npm pack``` and ```npm install marktex-x.x.x.tgz``` 
 
 Run tests with ```npm test```
-
-
-# 1 heading one <a name=headingone1></a>
-## 1.1 heading <a name=heading2></a>
-### 1.1.1 heading one <a name=headingone3></a>
-#### 1.1.1.1 heading <a name=heading4></a>
-
