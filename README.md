@@ -1,5 +1,5 @@
 # markTex
-A LaTex inspired extension of markdown. After installing marktex can run from the command line with ```marktex input.md > output.md```
+A LaTex inspired extension of markdown. After installing markedtex can run from the command line with ```markedtex input.md > output.md```
 
 ## Commands
 ### Input
@@ -14,6 +14,6 @@ To add a table of contents add ```\tableOfContents``` where you want the table o
 
 ## Building & Testing <a name="build"></a>
 
-install dependencies with ```npm install``` to run marktex modified version run ```npm pack``` and ```npm install marktex-x.x.x.tgz``` 
+install dependencies with ```npm install``` to run markedtex modified version run ```npm pack``` and ```npm install markedtex-x.x.x.tgz``` 
 
 Run tests with ```npm test```

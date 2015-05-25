@@ -2,7 +2,7 @@
 
 (function () {
     'use strict';
-    var marktex = require( 'marktex' ),
+    var markedtex = require( 'markedtex' ),
         fs = require('fs'),
         stream,
         cwd = '',
@@ -27,6 +27,6 @@
         buffer += data;
     });
     stream.on('end', function() {
-        console.log(marktex.latexify(buffer,cwd));
+        console.log(markedtex.latexify(buffer,cwd));
     });
 }());

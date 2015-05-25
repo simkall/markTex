@@ -1,7 +1,7 @@
 {
-  "name": "marktex",
+  "name": "markedTex",
   "version": "0.0.1",
-  "description": "LaTex inspired markdown extension",
+  "description": "LaTex inspired markdown",
   "author": {
     "name": "Simon Kåll",
     "email": "simon.kall@fifthelement.fi"
@@ -15,30 +15,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/simkall/marktex"
+    "url": "http://github.com/simkall/markedtex"
   },
   "bin": {
-    "marktex": "./bin/marktex.js"
+    "markedtex": "./bin/markedtex.js"
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/simkall/marktex/LICENSE"
+    "url": "https://github.com/simkall/markedtex/LICENSE"
   },
   "dependencies": {
-    "lodash": "~3.8.0"
+    "lodash": "~3.6.0"
   },
   "devDependencies": {
-    "tap": "~1.0.5",
+    "tap": "~1.1.0",
     "jshint": "~2.7.0"
   },
   "bugs": {
-    "url": "https://github.com/simkall/marktex/issues"
+    "url": "https://github.com/simkall/markedtex/issues"
   },
-  "_id": "marktex@0.0.1",
+  "_id": "markedtex@0.0.1",
   "maintainers": [{
     "name": "Simon Kåll",
     "email": "simon.kall@fifthelement.fi"
   }],
   "directories": {},
-  "homepage": "https://github.com/simkall/marktex"
+  "homepage": "https://github.com/simkall/markedtex"
 }
