@@ -3,14 +3,13 @@
   "version": "0.0.1",
   "description": "LaTex inspired markdown",
   "author": {
-    "name": "Simon Kåll",
-    "email": "simon.kall@fifthelement.fi"
+    "name": "Simon Kåll"
   },
   "main": "./lib/index.js",
   "scripts": {
     "lint": "jshint **/*.js",
     "test": "tap test/*test.js",
-    
+
     "pretest": "npm run lint"
   },
   "repository": {
@@ -36,8 +35,7 @@
   },
   "_id": "markedtex@0.0.1",
   "maintainers": [{
-    "name": "Simon Kåll",
-    "email": "simon.kall@fifthelement.fi"
+    "name": "Simon Kåll"
   }],
   "directories": {},
   "homepage": "https://github.com/simkall/markedtex"
